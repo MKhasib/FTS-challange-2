@@ -101,3 +101,8 @@ body {
   );
   border: none;
 }
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}
