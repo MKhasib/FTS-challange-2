@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 2em;
+  font-size: 1.2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.close {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 900;
+  color: rgb(189, 189, 189);
+}
+.mark {
+  font-size: 2rem;
+}
+.close:hover {
+  color: black;
+}
