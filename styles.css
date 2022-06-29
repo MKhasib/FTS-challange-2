@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+ul {
+  list-style: none;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 2em;
@@ -9,7 +13,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 .close {
   display: flex;
@@ -24,4 +27,39 @@ body {
 }
 .close:hover {
   color: black;
+}
+.main {
+  width: 100%;
+  max-width: 700px;
+  margin: 1em auto;
+  color: rgb(189, 189, 189);
+  font-weight: 400;
+}
+.search {
+  display: flex;
+  gap: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid rgb(239, 239, 239);
+  margin-bottom: 1em;
+}
+.team-member {
+  border: 2px solid rgb(239, 239, 239);
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+.team-member:hover {
+  color: black;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+}
+.circle-container {
+  font-size: 1.5rem;
+}
+.team-member.active {
+  color: black;
+}
+.active .circle-container {
+  color: #32a852;
 }
